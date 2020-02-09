@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Arup Bhunia"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-pic-1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Mumbai,India"
   email            :
@@ -202,6 +202,20 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+# Collections - enable a collection for use as drafts
+collections:
+  drafts: 
+    output: true
+    permalink: /:categories/:title/
+  nlp:
+    output: true
+    permalink: /:categories/:title/
+  machine-learning:
+    output: true
+    permalink: /:categories/:title/
+  chat-bot:
+    output: true
+    permalink: /:categories/:title/
 
 # Archives
 #  Type
@@ -240,7 +254,9 @@ compress_html:
     envs: development
 
 
-# Defaults
+
+      
+# Build settings
 defaults:
   # _posts
   - scope:
@@ -250,10 +266,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
-
   # _pages
   - scope:
       path: ""
@@ -261,3 +276,46 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft
+      author_profile: true
+      read_time: true
+      sitemap: false
+      noindex: true   #To hide from robots and crawlers
+  # _nlp
+  - scope:
+      path: ""
+      type: nlp
+    values:
+      layout: article
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _machine-learning
+  - scope:
+      path: ""
+      type: machine-learning
+    values:
+      layout: article
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _chat-bot
+  - scope:
+      path: ""
+      type: chat-bot
+    values:
+      layout: article
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

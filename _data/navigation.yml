@@ -2,8 +2,12 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Data Wrangling Projects"
-    url: /data-wrangling/
+  - title: "NLP"
+    url: /nlp/
+  - title: "Machine Learning"
+    url: /machine-learning/
+  - title: "Chat Bot"
+    url: /chat-bot/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
