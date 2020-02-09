@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: archive
 permalink: /categories/machine-learning/
 title: "Machine Learning projects"
 author_profile: true
@@ -8,3 +8,12 @@ header:
 ---
 
 
+## Latest Stories
+
+<div class="grid__wrapper">
+  {% assign collection = 'machine-learning' %}
+  {% assign posts = site[collection] | reverse %}
+  {% for post in posts %}
+    {% include archive-taxonomy.html type="grid" %}
+  {% endfor %}
+</div>
