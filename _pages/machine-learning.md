@@ -14,6 +14,6 @@ header:
   {% assign collection = 'machine-learning' %}
   {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
-    {% include archive-taxonomy.html type="grid" %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
