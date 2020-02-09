@@ -8,4 +8,4 @@ description: "Its Machine learning !!"
 og_image: "/images/perceptron/percept.jpg"
 ---
 
-Go ahead, [read on!]({{ site.baseurl }}{% link _pages/music-naka.markdown %})
+Go ahead, [read on!]({{ site.baseurl }}{% link _pages/machine-learning.markdown %})
