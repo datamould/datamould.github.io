@@ -216,6 +216,9 @@ collections:
   chat-bot:
     output: true
     permalink: /:categories/:title/
+  rpa:
+    output: true
+    permalink: /:categories/:title/
 
 # Archives
 #  Type
@@ -291,7 +294,7 @@ defaults:
       path: ""
       type: nlp
     values:
-      layout: article
+      layout: pages
       author_profile: true
       read_time: true
       comments: true
@@ -302,7 +305,7 @@ defaults:
       path: ""
       type: machine-learning
     values:
-      layout: article
+      layout: pages
       author_profile: true
       read_time: true
       comments: true
@@ -313,7 +316,18 @@ defaults:
       path: ""
       type: chat-bot
     values:
-      layout: article
+      layout: pages
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _rpa
+  - scope:
+      path: ""
+      type: rpa
+    values:
+      layout: pages
       author_profile: true
       read_time: true
       comments: true

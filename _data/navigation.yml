@@ -5,7 +5,7 @@ main:
   - title: "NLP"
     url: /nlp/
   - title: "Machine Learning"
-    url: /machine-learning/
+    url: /categories/machine-learning/
   - title: "Chat Bot"
     url: /chat-bot/
   - title: "RPA"
