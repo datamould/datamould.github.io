@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "<b>Data</b>Mould"
+title                    : "DataMould"
 title_separator          : "-"
 name                     : "Arup Bhunia"
 description              : "Data Science Portfolio"
@@ -312,6 +312,17 @@ defaults:
   - scope:
       path: ""
       type: chat-bot
+    values:
+      layout: article
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _rpa
+  - scope:
+      path: ""
+      type: rpa
     values:
       layout: article
       author_profile: true
