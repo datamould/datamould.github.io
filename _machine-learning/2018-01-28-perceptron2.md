@@ -1,6 +1,5 @@
 ---
-title: "Machine Learning"
-author: Arup Bhunia
+title: "Data Wrangling Project"
 date: 2018-01-28
 categories: machine-learning
 tags: [machine-learning, data science, messy data]
