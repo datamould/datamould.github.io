@@ -10,8 +10,6 @@ header:
 
 ## Latest Stories
 
-<div class="grid__wrapper">
-  {% for post in site.categories.machine-learning %}
+  {% for post in site.categories.machine %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
-</div>
