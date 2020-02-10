@@ -8,6 +8,6 @@ entries_layout: grid
 header:
   image: "/images/fort point.png"
 ---
-{% for post in site.machine-learning %}
+{% for post in site.categories.machine-learning %}
 	{% include archive-single.html %}
 {% endfor %}
