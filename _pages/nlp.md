@@ -8,3 +8,6 @@ header:
 ---
 
 
+{% for post in site.categories.nlp %}
+	{% include archive-single.html %}
+{% endfor %}
