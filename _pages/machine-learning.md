@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: archive
 permalink: /categories/machine-learning/
 title: "Machine Learning projects"
 author_profile: true
