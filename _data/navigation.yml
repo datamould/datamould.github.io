@@ -2,14 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "NLP"
-    url: /nlp/
-  - title: "Machine Learning"
-    url: /machine-learning/
-  - title: "Chat Bot"
-    url: /chat-bot/
-  - title: "RPA"
-    url: /rpa/
+  - title: "Blog"
+    url: /blog/
+  - title: "Hire me"
+    url: /hireme/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

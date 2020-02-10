@@ -12,10 +12,10 @@ locale                   : "en-US"
 title                    : "DataMould"
 title_separator          : "-"
 name                     : "Arup Bhunia"
-description              : "Data Science Portfolio"
+description              : "Blog and portfolio of Arup Bhunia, AI enthusiast."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "datamould/datamould.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -180,10 +180,10 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: Asia/Calcutta # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -202,13 +202,6 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-# Collections - enable a collection for use as drafts
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -220,22 +213,22 @@ collections:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
@@ -268,11 +261,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
