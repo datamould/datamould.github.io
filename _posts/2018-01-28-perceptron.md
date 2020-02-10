@@ -1,14 +1,17 @@
 ---
-title: "nlp first project"
-date: 2018-01-28
+layout: single
+title: "data wrangling"
+date: 2017-12-13 16:37:00 +08:00
+modified: 2018-01-03 22:15:24 +08:00
+description:
 categories: 
-	- "machine-learning"
+	- "markdown"
 tags:
     - Python
     - markdown
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Data Wrangling,clean Data"
 mathjax: "true"
 ---
 

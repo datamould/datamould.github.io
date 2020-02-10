@@ -1,6 +1,9 @@
 ---
-title: "nlp first project"
-date: 2018-01-28
+layout: single
+title: "nlp first projecet"
+date: 2017-12-13 16:37:00 +08:00
+modified: 2018-01-03 22:15:24 +08:00
+description:
 categories: 
 	- "nlp"
 tags:
