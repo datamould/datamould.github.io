@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "data wrangling"
+title: "Git Merge Branch"
 date: 2017-12-13 16:37:00 +08:00
 modified: 2018-01-03 22:15:24 +08:00
 description:
-categories: 
-	- "markdown"
+categories:
+    - "Tech Article"
 tags:
-    - Python
-    - markdown
+    - Git
+	- bit
 header:
   image: "/images/perceptron/percept.jpg"
 ---
