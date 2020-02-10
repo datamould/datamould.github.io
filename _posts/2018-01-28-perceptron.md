@@ -11,7 +11,6 @@ tags:
     - markdown
 header:
   image: "/images/perceptron/percept.jpg"
-mathjax: "true"
 ---
 
 # H1 Heading
