@@ -11,7 +11,6 @@ tags:
     - markdown
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling,clean Data"
 mathjax: "true"
 ---
 
