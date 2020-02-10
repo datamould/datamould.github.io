@@ -1,8 +1,11 @@
 ---
-title: "Data Wrangling Project"
+title: "nlp first project"
 date: 2018-01-28
-categories: machine-learning
-tags: [machine-learning, data science, messy data]
+categories: 
+	- "machine-learning"
+tags:
+    - Python
+    - markdown
 header:
   image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"

@@ -1,8 +1,11 @@
 ---
 title: "nlp first project"
 date: 2018-01-28
-categories: nlp
-tags: [nlp]
+categories: 
+	- "nlp"
+tags:
+    - Python
+    - Pillow
 header:
   image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
