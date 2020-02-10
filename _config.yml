@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Arup Bhunia"
-  avatar           : "/images/bio-pic-1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Mumbai,India"
   email            :
@@ -182,7 +182,7 @@ sass:
 # Outputting
 permalink: /:categories/:year/:month/:day/:title/
 paginate: 10 # amount of posts to show
-paginate_path: /blog/page:num/
+paginate_path: /page:num/
 timezone: Asia/Calcutta # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
