@@ -1,11 +1,16 @@
 ---
-title: "Brush up your python knowledge"
+title: "Brush up your Python knowledge"
 date: 2020-02-11
 categories: [Jupyter Tutorial, Python]
 tags: [machine-learning, data science, messy data]
-excerpt: "A tutorial to brush up your python skill...."
+excerpt: "A tutorial to brush up...."
 header:
-  image: /assets/images/2020/02/11/python_banner.jpg
+  overlay_image: /assets/images/2020/02/11/python_banner.jpg
+  caption: "Photo credit: [**NIBMWorldWide**](https://www.nibmworldwide.com/)"
+  actions:
+    - label: "Python Tutorial"
+      url: "https://docs.python.org/3/tutorial/"
+  show_overlay_excerpt: False
 ---
 
 This notebook will be a short review of key concepts in python. The goal of this notebook is to jog your memory and refresh concepts.  
