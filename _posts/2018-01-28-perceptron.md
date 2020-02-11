@@ -10,6 +10,8 @@ header:
   actions:
     - label: "More Info"
       url: "https://unsplash.com"
+  show_overlay_excerpt: False
+  tagline: "Brief intro"
 ---
 
 # H1 Heading
