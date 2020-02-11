@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Bio"
-    url: /bio/
+  - title: "About"
+    url: /about/
   - title: "Archive"
     url: /year-archive/
   - title: "Categories"

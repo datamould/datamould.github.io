@@ -13,7 +13,7 @@ title                    : "DataMould"
 title_separator          : "-"
 name                     : "Arup Bhunia"
 description              : "Blog and portfolio of Arup Bhunia, AI enthusiast."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://datamould.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "datamould/datamould.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -87,9 +87,9 @@ analytics:
 author:
   name             : "Arup Bhunia"
   avatar           : "assets/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "AI enthusiast,Passionate coder"
   location         : "Mumbai,India"
-  email            :
+  email            : "arupsom25@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
