@@ -3,15 +3,14 @@ title: "Data Wrangling Project"
 date: 2018-01-28
 categories: machine-learning
 tags: [machine-learning, data science, messy data]
+excerpt: "Brief intro"
 header:
-  overlay_image: /assets/images/2020/01/21/2020-01-21-mdt-running-sequence.png
+  og_image: /assets/images/2020/01/21/2020-01-21-mdt-running-sequence.png
   image: /assets/images/2020/01/21/2020-01-21-mdt-running-sequence.png
-  teaser: /assets/images/2020/01/21/2020-01-21-mdt-running-sequence.png
   actions:
     - label: "More Info"
       url: "https://unsplash.com"
   show_overlay_excerpt: False
-  tagline: "Brief intro"
 ---
 
 # H1 Heading
