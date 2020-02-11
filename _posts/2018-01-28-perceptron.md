@@ -6,6 +6,8 @@ tags: [machine-learning, data science, messy data]
 header:
   image: /assets/images/2020/01/21/2020-01-21-mdt-running-sequence.png
   teaser: /assets/images/2020/01/21/2020-01-21-mdt-running-sequence.png
+excerpt: "Data Wrangling, Data Science, Messy Data"
+mathjax: "true"
 ---
 
 # H1 Heading
