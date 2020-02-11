@@ -95,7 +95,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png]({{ site.url }}/assets/images/2020/02/11/output_7_0.png)
 
 
 
@@ -107,7 +107,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png]({{ site.url }}/assets/images/2020/02/11/output_8_0.png)
 
 
 ### Create a boxplot of the total bill amounts
@@ -120,7 +120,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png]({{ site.url }}/assets/images/2020/02/11/output_10_0.png)
 
 
 
@@ -132,7 +132,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![png]({{ site.url }}/assets/images/2020/02/11/output_11_0.png)
 
 
 ## Pandas DataFrame manipulation
@@ -578,5 +578,5 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![png]({{ site.url }}/assets/images/2020/02/11/output_41_0.png)
 
