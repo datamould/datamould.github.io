@@ -10,7 +10,6 @@ header:
   actions:
     - label: "More Info"
       url: "https://unsplash.com"
-mathjax: "true"
 ---
 
 # H1 Heading
