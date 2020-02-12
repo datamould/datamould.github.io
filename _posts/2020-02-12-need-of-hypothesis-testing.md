@@ -3,13 +3,11 @@ title: "Why we need hypothesis testing"
 date: 2020-02-12
 categories: [Statistics]
 tags: [Hypothesis Testing]
-excerpt: "Why we need Hypothesis testing"
+excerpt: "A brief introduction to Hypothesis testing"
 header:
-  overlay_image: /assets/images/2020/02/11/python_banner.jpg
+  teaser: /assets/images/2020/02/12/hypothesis testing.png
+  overlay_image: /assets/images/2020/02/12/hypothesis testing.png
   caption: "Photo credit: [**NIBMWorldWide**](https://www.nibmworldwide.com/)"
-  actions:
-    - label: "Python Tutorial"
-      url: "https://docs.python.org/3/tutorial/"
   show_overlay_excerpt: False
 ---
 
