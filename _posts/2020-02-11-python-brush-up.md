@@ -5,6 +5,7 @@ categories: [Jupyter Tutorial, Python]
 tags: [machine-learning, data science, messy data]
 excerpt: "A tutorial to brush up...."
 header:
+  teaser: /assets/images/2020/02/11/python_banner.jpg
   overlay_image: /assets/images/2020/02/11/python_banner.jpg
   caption: "Photo credit: [**NIBMWorldWide**](https://www.nibmworldwide.com/)"
   actions:

@@ -6,8 +6,7 @@ tags: [Hypothesis Testing]
 excerpt: "A brief introduction to Hypothesis testing"
 header:
   teaser: /assets/images/2020/02/12/hypothesis testing.png
-  overlay_image: /assets/images/2020/02/12/hypothesis testing.png
-  caption: "Photo credit: [**NIBMWorldWide**](https://www.nibmworldwide.com/)"
+  image: /assets/images/2020/02/12/hypothesis testing.png
   show_overlay_excerpt: False
 ---
 
