@@ -451,18 +451,6 @@ random.random()
 
 
 
-```python
-random.seed(1234)
-random.random()
-```
-
-
-
-
-    0.9664535356921388
-
-
-
 The random library includes standard distributions that may come in handy
 
 
