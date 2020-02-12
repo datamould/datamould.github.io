@@ -10,6 +10,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "DataMould"
+logo                     : "/assets/images/logo.png"
+masthead_title           : ""
 title_separator          : "-"
 name                     : "Arup Bhunia"
 description              : "Blog and portfolio of Arup Bhunia, AI enthusiast."
