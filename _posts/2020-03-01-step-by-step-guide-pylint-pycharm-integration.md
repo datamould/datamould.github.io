@@ -56,7 +56,7 @@ You can find the *External Tools* options from the
 
 1. File -> Settings
 2. Typing *External Tools* in the search bar
-![Step image 2]({{ site.url }}/assets/images/2020/03/01/Step-2.png)
+![Step image 2]({{ site.url }}/assets/images/2020/03/01/Step-2.jpg)
 
 You can read more about *External Tools* [here](https://www.jetbrains.com/help/pycharm/2017.1/external-tools.html).
 
@@ -64,7 +64,7 @@ You can read more about *External Tools* [here](https://www.jetbrains.com/help/p
 
 Tap on the' +' button in the* External Tools* window and customize using the details below.
 
-![Step image 3]({{ site.url }}/assets/images/2020/03/01/Step-3.png)
+![Step image 3]({{ site.url }}/assets/images/2020/03/01/Step-3.jpg)
 
 1. Program: *Use the path found in [Step 1](#1-locate-your-pylint-installation).*
 2. Arguments: "--msg-template='{abspath}:{line:5d}:{column}: {msg_id}: {msg} ({symbol})'" --output-format=colorized "$FilePath$"
