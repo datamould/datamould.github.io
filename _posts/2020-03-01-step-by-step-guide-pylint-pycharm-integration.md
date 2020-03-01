@@ -25,6 +25,7 @@ Note: You already using it (if you use any IDE that already has static analyzers
 
 
 ### What Static code analysis does for you?
+
 * Code styling analysis
 * Duplicate code detection
 * Complexity analysis
@@ -49,28 +50,28 @@ $ where pylint
 .\Python\Python36\Scripts\pylint.exe
 </pre> 
 
-#### 2. Go to External tools in PyCharm
+### 2. Go to External tools in PyCharm
 
 You can find the *External Tools* options from the 
 
 1. File -> Settings
 2. Typing *External Tools* in the search bar
-![Step image 2](/img/({{ site.url }}/assets/images/2020/03/01/Step-2.png)
+![Step image 2]({{ site.url }}/assets/images/2020/03/01/Step-2.png)
 
 You can read more about *External Tools* [here](https://www.jetbrains.com/help/pycharm/2017.1/external-tools.html).
 
-#### 3. Add Pylint as an External Tool
+### 3. Add Pylint as an External Tool
 
 Tap on the' +' button in the* External Tools* window and customize using the details below.
 
-![Step image 3](/img/({{ site.url }}/assets/images/2020/03/01/Step-3.png)
+![Step image 3]({{ site.url }}/assets/images/2020/03/01/Step-3.png)
 
 1. Program: *Use the path found in [Step 1](#1-locate-your-pylint-installation).*
 2. Arguments: "--msg-template='{abspath}:{line:5d}:{column}: {msg_id}: {msg} ({symbol})'" --output-format=colorized "$FilePath$"
 3. Working directory: $ProjectFileDir$
 4. Output filters: $FILE_PATH$:\s*$LINE$\:\s*$COLUMN$:
 
-#### 4. Run Pylint on entire project or a single file
+### 4. Run Pylint on entire project or a single file
 
 To run on a single file:
 
