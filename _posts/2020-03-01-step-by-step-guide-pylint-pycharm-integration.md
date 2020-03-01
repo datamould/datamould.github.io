@@ -6,7 +6,7 @@ tags: [Pylint,Static code analysis]
 excerpt: "A step by step guide on how to use Pylint"
 header:
   teaser: /assets/images/2020/03/01/Pylint.jpg
-  image: /assets/images/2020/03/01/Pylint.jpg
+  overlay_image: /assets/images/2020/03/01/Pylint.jpg
   show_overlay_excerpt: False
 ---
 If you are hired to develop a production level python application then you have to adhere to certain code standards , often developers write their codes which look easy and understandable to them but actually it's not. So to maintain code quality we can use different code quality management tools.
@@ -132,7 +132,7 @@ disable=C0111,R0904
 Keep this config file in your project root folder and run Pylint.
 *  Now Pylint would not check for these two problems.
 
-Congratulations!! Now you are ready to write some powerful applicatons!!
+Congratulations!! Now you are ready to write some powerful applications!!
 
 Reference:
 
