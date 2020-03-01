@@ -132,6 +132,8 @@ disable=C0111,R0904
 Keep this config file in your project root folder and run Pylint.
 *  Now Pylint would not check for these two problems.
 
+Congratulations!! Now you are ready to write some powerful applicatons!!
+
 Reference:
 
 [Pylint](https://www.pylint.org/)
