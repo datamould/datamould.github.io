@@ -10,6 +10,7 @@ header:
   show_overlay_excerpt: False
 ---
 If you are hired to develop a production level python application then you have to adhere to certain code standards , often developers write their codes which look easy and understandable to them but actually it's not. So to maintain code quality we can use different code quality management tools.
+
 If you worked with PyCharm, you will note that the inspections plugin that performs static analysis on your code is very effective in identifying errors in PEP-8. Yet in some cases this fails and can be replaced with pylint. This tutorial will direct you through the setting up of pylint in PyCharm step by step in Windows.
 
 ### What is Static code analysis?
@@ -64,7 +65,7 @@ You can read more about *External Tools* [here](https://www.jetbrains.com/help/p
 
 Tap on the' +' button in the* External Tools* window and customize using the details below.
 
-![Step image 3]({{ site.url }}/assets/images/2020/03/01/Step-3.jpg)
+![Step image 3]({{ site.url }}/assets/images/2020/03/01/Step-3.png)
 
 1. Program: *Use the path found in [Step 1](#1-locate-your-pylint-installation).*
 2. Arguments: "--msg-template='{abspath}:{line:5d}:{column}: {msg_id}: {msg} ({symbol})'" --output-format=colorized "$FilePath$"
@@ -130,3 +131,7 @@ disable=C0111,R0904
 
 Keep this config file in your project root folder and run Pylint.
 *  Now Pylint would not check for these two problems.
+
+Reference:
+
+[Pylint](https://www.pylint.org/)
