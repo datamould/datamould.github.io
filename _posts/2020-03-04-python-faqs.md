@@ -50,4 +50,12 @@ python -m site
 python -m site --user-site
 </pre>
 
+### How to get the details of installed python packages?
+
+Simply use below command: 
+<pre>
+pip show {package_name}
+</pre>
+
+
 This blog will be continued with more interesting questions!!
