@@ -112,7 +112,7 @@ $ pylint --generate-rcfile > .pylintrc
 * /etc/pylintrc for default global configuration
 * ~/.pylintrc for default user configuration
 * <your project>/pylintrc for default project configuration (used when you'll run pylint <your project>)
-* wherever you want, then use pylint --rcfile=<Given path>
+* wherever you want, then use pylint --rcfile= Given path
 
 Do remember when generating the rc file, you can add option to the command line before the —generate-rcfile to be included in the generated file.
 
