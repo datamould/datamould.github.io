@@ -7,6 +7,7 @@ excerpt: "A series on Data Pre-processing in Python"
 header:
   teaser: /assets/images/2019/01/01/data_preprocessing.png
   image: /assets/images/2019/01/01/data_preprocessing.png
+  caption: "[Source](https://medium.com/@theCADS.com/making-decisions-with-data-the-importance-of-data-preparation-d07ee9c12768)"
   show_overlay_excerpt: False
 ---
 Data preprocessing is an integral step in Machine Learning as the quality of data and the useful information that can be derived from it directly affects the ability of our model to learn; therefore, it is extremely important that we preprocess our data before feeding it into our model.
