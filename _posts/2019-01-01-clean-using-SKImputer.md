@@ -1251,3 +1251,7 @@ cleaned_diabetes_df
 ```python
 diabetes.to_csv('datasets/diabetes_cleaned')
 ```
+
+You can get the notebook used in this tutorial [here](https://github.com/arupbhunia/Data-Pre-processing/blob/master/CleanUsingSKImputer.ipynb) and dataset used [here](https://github.com/arupbhunia/Data-Pre-processing/blob/master/datasets/diabetes.csv)
+
+Thanks for reading!
