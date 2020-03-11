@@ -190,7 +190,7 @@ In this example we will be discussing about Lasso Regression , Ridge regression 
 
 ### Lasso Regression:
 
-Lasso regression is a L1 regularized regression where there is a penalty for more complicated coefficients.
+Lasso regression is a L1 regularized regression when there is a penalty for more complicated coefficients.
 
 
 ```python
@@ -332,7 +332,7 @@ lasso_feature_df
 
 ### Ridge Regression
 
-Ridge regression is a L2 regularization technique
+Ridge regression is a L2 regularization technique.
 
 
 ```python
