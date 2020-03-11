@@ -21,15 +21,15 @@ Then how would you develop a predictive model?
 This is one of those questions which every machine learning engineer comes accross, you need deep knowledge of that domain to give an accepted answer,but don't worry I am going to help you automating this process in this tutorial, there are certain checklists we should follow to select the best features from our data.
 Let's begin!!
 
-### What is Feature Selection?
+## What is Feature Selection?
 
 Feature selection is the automated process of selecting important features out of all the features in our dataset.
 
-### Why we need it?
+## Why we need it?
 {:.no_toc}
 Feature selection helps the model to increase its accuracy and improve the computational efficiency.
 
-### Feature selection vs Dimensionality reduction?
+## Feature selection vs Dimensionality reduction?
 
 Feature selection isn't like dimensionality reduction. Both methods are used to lessen the quantity of features/attributes in the dataset, however a dimensionality reduction technique accomplish that by way of developing new combos of features, where as feature selection techniques include and exclude features present within the dataset without changing them.
 
@@ -183,12 +183,12 @@ X,Y
 
 
 
-### Embedded Method:
+## Embedded Method:
 Embedded methods selects the important features while the model is being trained, You can say few model training algorithms already implements a feature selection process while getting trained with the data.
 
 In this example we will be discussing about Lasso Regression , Ridge regression , decision tree.
 
-#### Lasso Regression:
+### Lasso Regression:
 
 Lasso regression is a L1 regularized regression where there is a penalty for more complicated coefficients.
 
@@ -330,7 +330,7 @@ lasso_feature_df
 
 
 
-#### Ridge Regression
+### Ridge Regression
 
 Ridge regression is a L2 regularization technique
 
@@ -469,7 +469,7 @@ ridge_feature_df
 
 
 
-#### Decision Tree
+### Decision Tree
 
 During the construction of a decision tree the structure of the decision tree is such that the more important features are higher up , are closer to the root.
 
