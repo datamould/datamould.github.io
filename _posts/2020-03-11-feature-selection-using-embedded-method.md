@@ -183,12 +183,12 @@ X,Y
 
 
 
-## Embedded Method:
+## Embedded Method
 Embedded methods selects the important features while the model is being trained, You can say few model training algorithms already implements a feature selection process while getting trained with the data.
 
 In this example we will be discussing about Lasso Regression , Ridge regression , decision tree.
 
-### Lasso Regression:
+### Lasso Regression
 
 Lasso regression is a L1 regularized regression when there is a penalty for more complicated coefficients.
 

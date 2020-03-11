@@ -458,7 +458,7 @@ RFE_selected_features.head()
 
 
 
-## Forward Selection:
+## Forward Selection
 
 In this feature selection technique one feature is added at a time based on the performance of the classifier till we get to the specified number of features.
 
@@ -566,7 +566,7 @@ forward_elimination_features_df.head()
 
 
 
-## Backward Selection:
+## Backward Selection
 
 In this feature selection technique one feature is removed at a time based on the performance of the classifier till we get to the specified number of features.
 
