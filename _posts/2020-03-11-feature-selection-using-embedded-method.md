@@ -183,13 +183,12 @@ X,Y
 
 
 
-## Embedded Method:
-{:.toc}
+### Embedded Method:
 Embedded methods selects the important features while the model is being trained, You can say few model training algorithms already implements a feature selection process while getting trained with the data.
 
 In this example we will be discussing about Lasso Regression , Ridge regression , decision tree.
 
-### Lasso Regression:
+#### Lasso Regression:
 
 Lasso regression is a L1 regularized regression where there is a penalty for more complicated coefficients.
 
@@ -331,7 +330,7 @@ lasso_feature_df
 
 
 
-### Ridge Regression
+#### Ridge Regression
 
 Ridge regression is a L2 regularization technique
 
@@ -470,7 +469,7 @@ ridge_feature_df
 
 
 
-### Decision Tree
+#### Decision Tree
 
 During the construction of a decision tree the structure of the decision tree is such that the more important features are higher up , are closer to the root.
 
@@ -562,3 +561,4 @@ buildmodel(decision_tree_feature_df,Y,test_frac=.2, model_name='Decision Tree')
 
     Accuracy of the Decision Tree model is 0.5284130942943683
     
+Thanks for reading!!
