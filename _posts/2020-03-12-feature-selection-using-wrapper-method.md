@@ -182,7 +182,7 @@ X,Y
 
 
 
-# Recursive Feature Elemination
+## Recursive Feature Elemination
 
 Recursive Feature Elimination selects features by recursively considering smaller subsets of features by pruning the least important feature at each step.
 Here models are created iteartively and in each iteration it determines the best and worst performing features and this process continues until all the features are explored.Next ranking is given on eah feature based on their elimination orde.
@@ -458,7 +458,7 @@ RFE_selected_features.head()
 
 
 
-# Forward Selection:
+## Forward Selection:
 
 In this feature selection technique one feature is added at a time based on the performance of the classifier till we get to the specified number of features.
 
@@ -566,7 +566,7 @@ forward_elimination_features_df.head()
 
 
 
-# Backward Selection:
+## Backward Selection:
 
 In this feature selection technique one feature is removed at a time based on the performance of the classifier till we get to the specified number of features.
 
