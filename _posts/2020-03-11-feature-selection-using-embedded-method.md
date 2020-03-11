@@ -10,11 +10,8 @@ header:
   image: /assets/images/2020/03/11/Embedded_method.png
   show_overlay_excerpt: False
 ---
-**Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here:
-1. Embedded Method
-2. Wrapper Method
-3. Filter Method.
-{: .notice--warning}
+**Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here: Embedded Method, Wrapper Method, Filter Method.
+{: .notice--info}
 
 Are you sinking into lots of feature but do not know which one to pick and which one to ignore?
 Then how would you develop a predictive model?
@@ -187,7 +184,7 @@ X,Y
 
 
 ## Embedded Method:
-
+{:.toc}
 Embedded methods selects the important features while the model is being trained, You can say few model training algorithms already implements a feature selection process while getting trained with the data.
 
 In this example we will be discussing about Lasso Regression , Ridge regression , decision tree.
