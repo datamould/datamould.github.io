@@ -4,18 +4,17 @@ date: 2020-03-11
 categories: [Machine Learning]
 tags: [Data Pre-processing,Feature Selection,Embedded Method,Lasso Regression,Ridge Regression,]
 excerpt: "A step by step guide on how to select features"
+toc: true
 header:
   teaser: /assets/images/2020/03/11/Embedded_method.png
   image: /assets/images/2020/03/11/Embedded_method.png
   show_overlay_excerpt: False
 ---
-_This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here:
+**Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here:
 1. Embedded Method
 2. Wrapper Method
 3. Filter Method_
-{: .notice--primary}
-&nbsp;
-&nbsp;
+{: .notice--warning}
 
 Are you sinking into lots of feature but do not know which one to pick and which one to ignore?
 Then how would you develop a predictive model?
