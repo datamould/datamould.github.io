@@ -16,10 +16,11 @@ _This is a part of series on Data Preprocessing in Machine Learning you can chec
 {: .notice--primary}
 &nbsp;
 &nbsp;
+
 Are you sinking into lots of feature but do not know which one to pick and which one to ignore?
 Then how would you develop a predictive model?
 
-![gif](/assets/images/2020/03/11/tenor.gif)
+![gif](/assets/images/2020/03/11/feature_selection.gif)
 
 This is one of those questions which every machine learning engineer comes accross, you need deep knowledge of that domain to give an accepted answer,but don't worry I am going to help you automating this process in this tutorial, there are certain checklists we should follow to select the best features from our data.
 Let's begin!!
