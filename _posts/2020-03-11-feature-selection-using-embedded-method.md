@@ -13,7 +13,7 @@ header:
 **Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here:
 1. Embedded Method
 2. Wrapper Method
-3. Filter Method_
+3. Filter Method.
 {: .notice--warning}
 
 Are you sinking into lots of feature but do not know which one to pick and which one to ignore?
@@ -29,7 +29,7 @@ Let's begin!!
 Feature selection is the automated process of selecting important features out of all the features in our dataset.
 
 ### Why we need it?
-
+{:.no_toc}
 Feature selection helps the model to increase its accuracy and improve the computational efficiency.
 
 ### Feature selection vs Dimensionality reduction?
