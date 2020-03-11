@@ -1,5 +1,5 @@
 ---
-title: "T101: Feature selection techniques in machine learning"
+title: "T101: Embedded method-Feature selection techniques in machine learning"
 date: 2020-03-11
 categories: [Machine Learning]
 tags: [Data Pre-processing,Feature Selection,Embedded Method,Lasso Regression,Ridge Regression,]
