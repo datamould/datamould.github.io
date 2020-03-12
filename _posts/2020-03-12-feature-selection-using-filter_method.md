@@ -9,6 +9,7 @@ header:
   teaser: /assets/images/2020/03/12/filter_method.png
   image: /assets/images/2020/03/12/filter_method.png
   show_overlay_excerpt: False
+mathjax: true
 ---
 In this tutorial we will see how we can select features using Filter feature selection method.
 
@@ -1126,7 +1127,7 @@ def generate_feature_scores_df(X,Score):
     return feature_score
 ```
 
-### Chi-Square test:
+### Chi-Square Test
 
 Chi2 is a measure of dependency between two variables.
 It gives us a goodness of fit measure because it measures how well an observed distribution of a particular feature fits with the distribution that is expected if two features are independent.
@@ -1352,7 +1353,7 @@ chi2_best_features.head()
 
 
 
-### Anova-F Test
+### Anova F-Test
 
 The F-value scores examine the varaiance by grouping the numerical feature by the target vector, the means for each group are significantly different.
 
