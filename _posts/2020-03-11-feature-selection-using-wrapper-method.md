@@ -12,7 +12,7 @@ header:
 mathjax: true
 ---
 
-**Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here: Embedded Method, Wrapper Method, Filter Method.
+**Note:** This is a part of series on Data Preprocessing in Machine Learning you can check all tutorials here: [Embedded Method](https://datamould.github.io/machine%20learning/2020/03/11/feature-selection-using-embedded-method/), [Wrapper Method](https://datamould.github.io/machine%20learning/2020/03/11/feature-selection-using-wrapper-method/), [Filter Method](https://datamould.github.io/machine%20learning/2020/03/11/feature-selection-using-filter_method/).
 {: .notice--info}
 
 In this tutorial we will see how we can select features using wrapper methods such as recursive feature elemination,forwward selection and backward selection where you generate models with subsets of features and find the best subset to work with based on the model's performance.
@@ -183,7 +183,7 @@ X,Y
 
 
 
-## Recursive Feature Elemination
+## Recursive Feature Elimination
 
 Recursive Feature Elimination selects features by recursively considering smaller subsets of features by pruning the least important feature at each step.
 Here models are created iteartively and in each iteration it determines the best and worst performing features and this process continues until all the features are explored.Next ranking is given on eah feature based on their elimination orde.

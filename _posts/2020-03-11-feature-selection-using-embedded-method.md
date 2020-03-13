@@ -10,7 +10,7 @@ header:
   image: /assets/images/2020/03/11/Embedded_method.png
   show_overlay_excerpt: False
 ---
-**Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here: Embedded Method, Wrapper Method, Filter Method.
+**Note:** This is a part of series on Data Preprocessing in Machine Learning you can check all tutorials here: [Embedded Method](https://datamould.github.io/machine%20learning/2020/03/11/feature-selection-using-embedded-method/), [Wrapper Method](https://datamould.github.io/machine%20learning/2020/03/11/feature-selection-using-wrapper-method/), [Filter Method](https://datamould.github.io/machine%20learning/2020/03/11/feature-selection-using-filter_method/).
 {: .notice--info}
 
 Are you sinking into lots of feature but do not know which one to pick and which one to ignore?
