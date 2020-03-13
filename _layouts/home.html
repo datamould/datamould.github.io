@@ -13,7 +13,7 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-{% for post in site.posts limit:6 %}
+{% for post in posts %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 
