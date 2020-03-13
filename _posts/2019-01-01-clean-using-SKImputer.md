@@ -17,9 +17,8 @@ The concepts that I will cover in this series of article are-
 2. Standardization
 3. Handling Categorical Variables
 4. Discretization
-5. Multicollinearity
-6. Dimensionality Reduction 
-7. Feature Selection
+5. Dimensionality Reduction 
+6. Feature Selection
 
 Let's go through an quick example to have some insights for Handling Null Values!!
 
