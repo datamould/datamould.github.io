@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-
+<div>
 <h3 class="grid__wrapper">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -18,3 +18,4 @@ layout: archive
 {% endfor %}
 
 {% include paginator.html %}
+</div>
