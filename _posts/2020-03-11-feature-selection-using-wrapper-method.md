@@ -9,6 +9,7 @@ header:
   teaser: /assets/images/2020/03/11/wrapper_method.png
   image: /assets/images/2020/03/11/wrapper_method.png
   show_overlay_excerpt: False
+mathjax:true
 ---
 
 **Note:** This is a part of series on Data Preprocessing in Machine Learning you can checkout subsequent parts here: Embedded Method, Wrapper Method, Filter Method.
