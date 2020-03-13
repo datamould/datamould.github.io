@@ -3,7 +3,7 @@ title: "T103: Filter method-Feature selection techniques in machine learning"
 date: 2020-03-11
 categories: [Machine Learning]
 tags: [Data Pre-processing,Feature Selection,Filter Method,Anova F-Test,Chi-2 Test,Missing Value Ratio Threshold,Variance Threshold]
-excerpt: "A step by step guide on how to select features"
+excerpt: "A step by step guide on how to select features using filter method"
 toc: true
 header:
   teaser: /assets/images/2020/03/12/filter_method.png

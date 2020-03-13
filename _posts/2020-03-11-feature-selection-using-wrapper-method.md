@@ -3,7 +3,7 @@ title: "T102: Wrapper method-Feature selection techniques in machine learning"
 date: 2020-03-11
 categories: [Machine Learning]
 tags: [Data Pre-processing,Feature Selection,Wrapper Method,RFE,Backward Elimination,Forward Elimination]
-excerpt: "A step by step guide on how to select features"
+excerpt: "A step by step guide on how to select features using wrapper method"
 toc: true
 header:
   teaser: /assets/images/2020/03/11/wrapper_method.png
